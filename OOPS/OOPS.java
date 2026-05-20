@@ -6,9 +6,20 @@ public class OOPS {
       System.out.println(p1.color);
       p1.setTip(5);
       System.out.println(p1.tip);
+
+      BankAccount myAcc = new BankAccount();
+      myAcc.username = "Saquib";
+      myAcc.setPassword("2463d");;
   }
 
+}
 
+class BankAccount {
+  public String username;
+  private String password;
+  public void setPassword(String pwd) {
+    password = pwd;
+  }
 }
 
 class Pen {
