@@ -15,9 +15,11 @@ public class Abstract3 {
 }
 
 class Student {
-  int returnPercentage(int math, int phy, int chem) {
+
+  static int returnPercentage(int math, int phy, int chem) {
     return (math + phy + chem) / 3;
   }
+  
   String name;
   int rollno;
 
