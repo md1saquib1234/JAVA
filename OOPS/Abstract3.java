@@ -1,0 +1,34 @@
+public class Abstract3 {
+
+  public static void main(String[] args) {
+    Student s1 = new Student();
+    s1.schoolName = "DPS";
+
+    Student s2 = new Student();
+    System.out.println(s2.schoolName);
+
+    Student s3 = new Student();
+    s3.schoolName = "PPS";
+
+
+  }
+}
+
+class Student {
+  int returnPercentage(int math, int phy, int chem) {
+    return (math + phy + chem) / 3;
+  }
+  String name;
+  int rollno;
+
+  static String schoolName;
+
+  void setName(String name) {
+    this.name = name;
+
+  }
+
+  String getName() {
+    return this.name;
+  }
+}
