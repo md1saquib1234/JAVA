@@ -10,5 +10,5 @@ class cOMPLEX {
 }
 
 public static Complex add(complex a, Complex b) {
-  return new Complex((a.real + b.real), (a.img + b.img));
+  
 }
